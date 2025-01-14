@@ -25,19 +25,10 @@ namespace ToDoClass
         {
             Console.WriteLine(message);
         }
-        public static void WriteLineInt(int numbers) 
-        {
-            Console.WriteLine(numbers);
-        }
 
         public static string ReadLine() 
         { 
         return Console.ReadLine();
         }
-        public static int RandomNumber(int min, int max) 
-        { 
-        Random random = new Random();
-        return random.Next(min, max + 1);   
-                }
     }
 }
